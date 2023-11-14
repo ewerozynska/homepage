@@ -24,3 +24,7 @@ footer {
 	color: aliceblue;
 	background: dimgrey;
 }
+
+img {
+	width: 100%;
+}
