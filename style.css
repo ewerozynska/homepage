@@ -1,11 +1,26 @@
-h1 {
-	color: blue;
+.top-header {
+	color:blueviolet;
+	background: rgb(233, 180, 209);
 }
 
-h2 {
-	color: rgb(13, 173, 83);
+.section-header {
+color:blue;
+}
+
+.article-header {
+	color: crimson;
+}
+
+.nav-header {
+color:greenyellow;
+background: rgb(178, 224, 224);
 }
 
 section {
 	background: #c4dfcd;
+}
+
+footer {
+	color: aliceblue;
+	background: dimgrey;
 }

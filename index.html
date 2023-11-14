@@ -9,34 +9,43 @@
 </head>
 
 <body>
-	<header>
-		<a href="index.html" target="">O mnie</a>
-		<a href="notes.html" target="">Notatki</a>
-		<a href="books.html" target="">Książki</a>
+	<header class="nav-header">
+		<nav>
+		<a href="index.html">O mnie</a>
+		<a href="notes.html">Notatki</a>
+		<a href="books.html">Książki</a>
+	</nav>
 	</header>
 
 	<main>
-		<header>
-			<h1>Ewelina - strona domowa</h1>
+		<header id="top">
+			<h1 class="top-header">Ewelina - strona domowa</h1>
 		</header>
 		<section>
-			<h2>Kim jestem</h2>
+			<h2 class="section-header">Kim jestem</h2>
+			<article>
+				<p>Hej! Uczę się <strong>Frontendu</strong>, zobaczymy jak mi pójdzie.</p>
+			
+			</article>
 		</section>
 		<section>
-			<h2>O czym chcę powiedzieć</h2>
+			<h2 class="section-header">O czym chcę powiedzieć</h2>
 			<article>
-				<h3>Moje notatki</h3>
-				<p>Relacja z nauki</p>
+				<h3 class="article-header">Moje notatki</h3>
+				<p>Na osobnej podstronie umieszczam (a właściwie planuję umieszczać) notatki z nauki. Na bieżąco prowadzę je w aplikacji Notion, którą polecam.<br>
+				Do lektury notatek zapraszam o <a href="notes.html" target="">tutaj</a>.</p>
 			</article>
 			<article>
-				<h3>Ksiązki</h3>
-				<p>Opis i komentarz do polecanych książek</p>
+				<h3 class="article-header">Ksiązki</h3>
+				<p>W wolnych chwilach lubię czytać lub słuchać audiobooków, dlatego umieszczę <a href="books.html" target="">tu</a> kilka polecajek najświeższych z mojej perspektywy odkryć, a także listę propozycji znalezionych w internecie, do których jeszcze nie zajrzałam.</p>
 			</article>
 		</section>
-		<footer>
-			<p>Strona domowa Eweliny R</p>
-		</footer>
+		
 	</main>
+
+	<footer>
+		<p>Strona domowa Eweliny ER <a href="#top">Do góry ⬆️</a></p>
+	</footer>
 </body>
 
 </html>
