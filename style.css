@@ -25,6 +25,29 @@ footer {
 	background: dimgrey;
 }
 
+.main-picture {
+	width: 300px;
+}
+
 img {
-	width: 100%;
+	max-width: 400px;
+	display: block;
+	margin-left: 10%;
+}
+
+.books-article {
+	display: inline-block;
+	padding: 20px;
+	border: 10px;
+}
+
+.notes-article {
+	display: block;
+	padding: 20px;
+	border: 10px;
+}
+
+body {
+	margin-left: 50px;
+	margin-right: 50px;
 }
