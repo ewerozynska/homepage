@@ -13,47 +13,75 @@ html {
 	background: rgb(233, 180, 209);
 }
 
-.section-header {
+.section {
+	background: darkseagreen;
+	padding-left: 16px;
+}
+
+.section__header {
 	color: blue;
 }
 
-.article-header {
+.article__header {
 	color: crimson;
 }
 
-.nav-header {
-	color: greenyellow;
-	background: rgb(178, 224, 224);
+.navigation {
+	background: gray;
+	padding: 16px;
 }
 
-section {
-	background: #c4dfcd;
+.navigation__link {
+	color: lemonchiffon;
 }
+
 
 footer {
 	color: aliceblue;
 	background: dimgrey;
-
 }
 
-.main-picture {
-	width: 300px;
-}
-
-img {
-	max-width: 400px;
+.section__picture {
+	max-width: 300px;
 	display: block;
-	margin-left: 10%;
+	position: static;
+	margin: auto;
 }
 
 .books-article {
 	display: inline-block;
-	padding: 20px;
-	border: 10px;
+	padding: 10px;
+	border: 2px;
+	margin: 5px;
+	border-radius: 16px;
+	border-style: solid;
+	border-color: black;
+	color: blue;
+	background: yellow;
+}
+
+.books-article__header {
+	color: red;
+}
+
+.books-article__content {
+	padding-left: 10px;
 }
 
 .notes-article {
 	display: block;
 	padding: 20px;
-	border: 10px;
+	border: 3px;
+	margin: 16px;
+	border-color: black;
+	border-style: solid;
+	background: beige;
+}
+
+.notes-article__header {
+	color: crimson;
+}
+
+.notes-article__content {
+	color: blueviolet;
 }
