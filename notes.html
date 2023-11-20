@@ -20,22 +20,79 @@
 	<main>
 		<header>
 			<h1 class="top-header">Nauka Frontendu z WTF</h1>
-		</header>
-		<section class="section">
-			<h2 class="section__header">Notatki</h2>
 			<img class="section__picture" src="rozmieszczenie-elementow-biurka-na-zoltym-tle.jpg"
 				alt="Zdjęcie notatnika i długopisu na żółtym tle">
+		</header>
+		<section class="section">
+			<h2 class="section__header">Notatki HTML</h2>
 			<article class="notes-article">
 				<h3 class="notes-article__header">Notatka 1</h3>
 				<p class="notes-article__content">HTML i tak dalej</p>
 			</article>
 			<article class="notes-article">
 				<h3 class="notes-article__header">Notatka 2</h3>
-				<p class="notes-article__content">CSS i tak dalej</p>
+				<p class="notes-article__content">HTML 2</p>
 			</article>
 			<article class="notes-article">
 				<h3 class="notes-article__header">Notatka 3</h3>
-				<p class="notes-article__content">JS i tak dalej</p>
+				<p class="notes-article__content">HTML 3</p>
+			</article>
+		</section>
+		<section class="section">
+			<h2 class="section__header">Notatki CSS - BOX MODEL</h2>
+			<article class="notes-article">
+				<h3 class="notes-article__header">display</h3>
+				<p class="notes-article__content"><strong>block</strong> - zajmuje całą przestrzeń od lewej do prawej (domyślnie
+					w przeglądarce)<br><br>
+					<strong>inline</strong> - dostosowuje się do treści, nie działa na nie wysokość czy szerokość<br><br>
+					<strong>inline-block</strong> - w przeciwieństwie do inline dostosowuje się do szerokości i wysokości podanej
+					przez width i high, ale zachowuje się również jak inline, jeśli mieszczą się w jednej linii to układają się
+					obok siebie
+				</p>
+			</article>
+			<article class="notes-article">
+				<h3 class="notes-article__header">width i high </h3>
+				<p class="notes-article__content"><strong>max/min</strong> - określa wysokość lub szerokość na sztywno, w wersji
+					max/min można sprawić, że albo w ramach rozszerzania okna element zwiększy się tylko do określonej wysokości
+					(max) albo przy zmniejszaniu okna w pewnym momencie element przestaje się zmniejszać i pojawi się scroll</p>
+			</article>
+			<article class="notes-article">
+				<h3 class="notes-article__header">overflow</h3>
+				<p class="notes-article__content">
+					<strong>hidden</strong> - ucina treść niemieszczącą się w elemencie<br><br>
+					<strong>auto</strong> - scroll w elemencie (tylko tam gdzie jest potrzebny)<br><br>
+					<strong>clip</strong> (trochę jak hidden)<br><br>
+					<strong>scroll</strong> - scroll pojawia się niezależnie od tego czy jest potrzebny czy nie<br><br>
+					<strong>visible</strong> - domyślna własność, treść wystaje poza element przy wcześniejszym określeniu
+					wysokości lub szerokości (co nie sprawia, że dalsze elementy się przesuwają i robią miejsce na poprzednie - w
+					takim wypadku treść na siebie nachodzi)
+				</p>
+			</article>
+			<article class="notes-article">
+				<h3 class="notes-article__header">jednostki</h3>
+				<p class="notes-article__content">
+					<strong>px</strong> - dokładna ilość wyrażona w pixelach (punkty na ekranie)<br><br>
+					<strong>0</strong> - w tym przypadku nie podajemy jednostek<br><br>
+					<strong>%</strong> procent ale w przypadku odniesienia do swojego rodzica (czasem w przypadku wysokości to określenie nie zadziała, np. gdy bezpośrednim rodzicem jest body)<br><br>
+					<strong>vw</strong> - dot. szerokości ekranu<br><br>
+					<strong>vh</strong> - dot. wysokości okna
+				</p>
+			</article>
+			<article class="notes-article">
+				<h3 class="notes-article__header">box-sizing</h3>
+				<p class="notes-article__content">
+					<strong>content-box</strong> - domyślna wartość (wysokość czy szerokość podawana jest dla samego elementu)<br><br>
+					<strong>border-box</strong> - wysokość i szerokość określona dla elementu dotyczy wszystkiego (łącznie z padding i border) oprócz marginesu, obecnie najczęściej używane
+				</p>
+			</article>
+			<article class="notes-article">
+				<h3 class="notes-article__header">position</h3>
+				<p class="notes-article__content">
+					<strong>static</strong><br><br>
+					<strong>relative</strong> - służy do pozycjonowania elementów, sam w sobie nic nie robi, można dzięki niemu pozycjonować elementy wewnątrz niego<br><br>
+					<strong>absolute</strong> - nadając go elementowi dajemy możliwość pozycjonowania względem innego elementu, który ma zdefiniowane position: relative<br><br>
+					<strong>z-index</strong> 
+				</p>
 			</article>
 		</section>
 	</main>
